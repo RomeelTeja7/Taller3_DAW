@@ -1,5 +1,5 @@
-var miBoton1 = document.getElementById("miBoton1");
-miBoton1.onclick = loadDoc;
+var miBoton3 = document.getElementById("miBoton3");
+miBoton3.onclick = loadDoc;
 
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
@@ -8,7 +8,7 @@ function loadDoc() {
       myFunction(this);
     }
   };
-  xhttp.open("GET", "../xml/ciclo1.xml", true);
+  xhttp.open("GET", "../xml/ciclo3.xml", true);
   xhttp.send();
 }
 
@@ -27,5 +27,5 @@ function myFunction(xml) {
     x[i].getElementsByTagName("descripcion")[0].childNodes[0].nodeValue +
     "</td></tr>" ;
   }
-document.getElementById("ciclo1").innerHTML = table;
+document.getElementById("ciclo3").innerHTML = table;
 }

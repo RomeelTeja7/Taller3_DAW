@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<materias>
+
+<materia>
+<nombre>Antropología Filosófica</nombre><codigo>ANF231</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+<materia>
+<nombre>Lenguajes de Marcado y Estilo Web</nombre><codigo>LME404</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+<materia>
+<nombre>Matemática Discreta</nombre><codigo>MAD541</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+<materia>
+<nombre>Programación de Algoritmos</nombre><codigo>PAL404</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+<materia>
+<nombre>Redes de Comunicación</nombre><codigo>REC404</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+</materias>
+

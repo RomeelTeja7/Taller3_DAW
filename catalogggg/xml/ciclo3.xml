@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<materias>
+
+<materia>
+<nombre>Base de Datos</nombre><codigo>BDD404</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+<materia>
+<nombre>Desarrollo de Aplicaciones Web con Gestores de Contenidos</nombre><codigo>DGC404</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+<materia>
+<nombre>Desarrollo de Aplic. Web con Soft. Interpret. en el Servidor</nombre><codigo>DSS404</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+<materia>
+<nombre>Programación Orientada a Objetos</nombre><codigo>POO404</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+<materia>
+<nombre>Servidores en Plataformas Libres</nombre><codigo>SPL404</codigo><descripcion>descripciones de materias...</descripcion>
+</materia>
+
+</materias>

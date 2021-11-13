@@ -1,42 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/tabla.css">
+  <link rel="stylesheet" href="css/hidemenu.css" />
+  <script src="js/togglemenu.js"></script>
 </head>
+
 <body>
+  <div id="contenedor">
 
-<h1>Inicio</h1>
-<div id="caja1">
-<button  id="miBoton1">Ciclo 1</button>
-<script src="js/ciclo1.js"></script>
-<table id="ciclo1"></table>
-<br>
-</div>
+    <div id="box" class="hide">
+      <ul id="tab">
+        <li>
+          <img id="arrow" src="/img/arrowleft.png">
+        </li>
+      </ul>
+      <div id="links">
+        <div id="deco">
+          <div class="bt">
+            <a href="ciclo1.html">Inicio</a>
+          </div>
+          <div class="bt">
+            <a href="ciclo2.html">Tutoriales</a>
+          </div>
+          <div class="bt">
+            <a href="ciclo3.html">Acerca de</a>
+          </div>
+          <div class="bt">
+            <a href="ciclo4.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<div id="caja2">
-<button  id="miBoton2">Ciclo 2</button>
-<script src="js/ciclo2.js"></script>
-<table id="ciclo2"></table>
-<br>
-</div>
+    <h1>Inicio</h1>
 
-<div id="caja3">
-<button  id="miBoton3">Ciclo 3</button>
-<script src="js/ciclo3.js"></script>
-<table id="ciclo3"></table>
-<br>
-</div>
+    <div id="cajas">
 
-<div id="caja4">
-<button  id="miBoton4">Ciclo 4</button>
-<script src="js/ciclo4.js"></script>
-<br><br><br><br>
-<table id="ciclo4"></table>
+      <div id="caja1">
+        <h2>Cliclo 1</h2>
+        <p>En el cilo #1 se presentan todas las materias más cercanas a bachillerato con el objetivo 
+          de que el estudiante se vaya adaptando poco a poco.
+        </p>
+        <button id="miBoton4"><a href="ciclo1.html">Ver más</a>
+        <table id="ciclo1"></table>
+        <br>
+      </div>
 
-</div>
+      <div id="caja2">
+        <h2>Cliclo 2</h2>
+        <p>En el cilo #2 se presentan todas las materias que se van relacionando con la carrera con el objetivo 
+          de que el estudiante se vaya adaptando poco a poco.
+        </p>
+        <button id="miBoton4"><a href="ciclo2.html">Ver más</a>
+        <table id="ciclo2"></table>
+        <br>
+      </div>
+    </div>
+
+    <div id="cajas">
+      <div id="caja3">
+        <h2>Cliclo 3</h2>
+        <p>En el cilo #3 se presentan todas las materias que se van relacionando con la carrera con el objetivo 
+          de que el estudiante se vaya adaptando poco a poco.
+        </p>
+        <button id="miBoton4"><a href="ciclo3.html">Ver más</a>
+        <table id="ciclo3"></table>
+        <br>
+      </div>
+
+      <div id="caja4">
+        <h2>Cliclo 4</h2>
+        <p>En el cilo #4 se presentan todas las materias que se van relacionando con la carrera con el objetivo 
+          de que el estudiante se vaya adaptando poco a poco.
+        </p>
+        <button id="miBoton4"><a href="ciclo4.html">Ver más</a>
+        <br><br><br><br>
+        <table id="ciclo4"></table>
+      </div>
+    </div>
+
+  </div>
 </body>
+
 </html>

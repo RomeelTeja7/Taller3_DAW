@@ -28,3 +28,13 @@
 .icon-menu:before {
   content: "\e9bd";
 }
+
+#divca1{
+  text-align: center;
+  padding: 2%;
+  background: white;
+}
+#contenedor1{
+  padding: 10%;
+  background-image: url("/img/ccua.jpg");
+}

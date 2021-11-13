@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="ES">
-    <head>
-        <meta charset="UFT-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>Menu</title>
-        <link rel="stylesheet" href="css/menup.css">
-        <script src="js/menu.js" defer></script>
-        <link rel="stylesheet" href="style2.css">
-        <link rel="stylesheet" href="css/tabla.css">
-        <link rel="stylesheet" href="css/hidemenu.css">
-    </head>
-    <body>
-        <nav id="menu" class="menu">
-            <label>Catalogo</label>
-            <ul class="menu_items" id="otroModo">
-                <li class="active"><a href="#">Catalogo</a></li>
-                <li><a href="#">Pensum</a>
-                  <ul>
+
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/menup.css">
+    <script src="js/menu.js" defer></script>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="css/tabla.css">
+    <link rel="stylesheet" href="css/hidemenu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/stilo_tabla.js"></script>
+
+    <nav id="menu" class="menu">
+        <label>Catalogo</label>
+        <ul class="menu_items" id="otroModo">
+            <li class="active"><a href="Inicio.html">Catalogo</a></li>
+            <li><a href="#">Pensum</a>
+                <ul>
                     <li><a href="ciclo1.html">Ciclo1</a></li>
                     <li><a href="ciclo2.html">Ciclo2</a></li>
                     <li><a href="ciclo3.html">Ciclo3</a></li>
                     <li><a href="ciclo4.html">Ciclo4</a></li>
                 </ul>
-                </li>
-                <li><a href="#" >Tablas Colores</a>
-                    <ul>
-                        <li><a href="#">Zona Oriental</a></li>
-                        <li><a href="#">Zona Central</a></li>
-                        <li><a href="#">Zona Occidental</a></li>
-                    </ul>
-                </li>
-                <li><a href="#" >Colores fondos</a>
-                  <ul>
-                      <li><a href="#">Zona Oriental</a></li>
-                      <li><a href="#">Zona Central</a></li>
-                      <li><a href="#">Zona Occidental</a></li>
-                  </ul>
-              </li>
-              <li><a href="#" >Texto</a>
+            </li>
+            <li><a href="#">Tablas Colores</a>
                 <ul>
-                    <li><a href="#">Zona Oriental</a></li>
-                    <li><a href="#">Zona Central</a></li>
-                    <li><a href="#">Zona Occidental</a></li>
+                    <li><a id="fondo1" href="#">Amarillo</a></li>
+                    <li><a id="fondo2" href="#">Rosa</a></li>
+                    <li><a id="fondo3" href="#">Gris</a></li>
                 </ul>
             </li>
-                <li><a href="#">Contactenos</a></li>
-            </ul>
-            <span class="icon-menu" id="btn_menu" >
-            </span>
-        </nav>
+            <li><a href="#">Colores fondos</a>
+                <ul>
+                    <li><a id="back1" href="#">Rojo</a></li>
+                    <li><a id="back2" href="#">Naranja</a></li>
+                    <li><a id="back3" href="#">Morado</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Texto</a>
+                <ul>
+                    <li><a id="texto1" href="#">Cursive</a></li>
+                    <li><a id="texto2" href="#">Fantasy</a></li>
+                    <li><a id="texto3" href="#">Monospace</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contactenos</a></li>
+        </ul>
+        <span class="icon-menu" id="btn_menu">
+        </span>
+    </nav>
+</head>
+    </head>
+    <body>
+        
 
         <div id="cajas">
 

@@ -1,11 +1,11 @@
 var miBoton4 = document.getElementById("miBoton4");
-miBoton4.onclick = loadDoc;
+miBoton4.onclick = leer;
 
-function loadDoc() {
+function leer() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
+      Funciones(this);
     }
   };
   xhttp.open("GET", "../xml/ciclo4.xml", true);
@@ -13,7 +13,7 @@ function loadDoc() {
 }
 
 
-function myFunction(xml) {
+function Funciones(xml) {
   var i;
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Nombre</th><th>Codigo</th><th>Descripcion</th></tr>";

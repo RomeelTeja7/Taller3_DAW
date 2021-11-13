@@ -1,11 +1,11 @@
 var miBoton2 = document.getElementById("miBoton2");
-miBoton2.onclick = loadDoc;
+miBoton2.onclick = leer;
 
-function loadDoc() {
+function leer() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
+      Funciones(this);
     }
   };
   xhttp.open("GET", "../xml/ciclo2.xml", true);
@@ -13,7 +13,7 @@ function loadDoc() {
 }
 
 
-function myFunction(xml) {
+function Funciones(xml) {
   var i;
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Nombre</th><th>Codigo</th><th>Descripcion</th></tr>";

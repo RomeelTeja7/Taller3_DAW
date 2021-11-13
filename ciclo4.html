@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/tabla.css">
-</head>
-<body>
+<html lang="ES">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="css/menup.css">
+        <script src="js/menu.js" defer></script>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="css/tabla.css">
+        
+    </head>
+    <body>
+        <nav id="menu" class="menu">
+            <label>Catalogo</label>
+            <ul class="menu_items" id="otroModo">
+                <li class="active"><a href="#">Catalogo</a></li>
+                <li><a href="#">Pensum</a>
+                  <ul>
+                    <li><a href="ciclo1.html">Ciclo1</a></li>
+                    <li><a href="ciclo2.html">Ciclo2</a></li>
+                    <li><a href="ciclo3.html">Ciclo3</a></li>
+                    <li><a href="ciclo4.html">Ciclo4</a></li>
+                </ul>
+                </li>
+                <li><a href="#" >Tablas Colores</a>
+                    <ul>
+                        <li><a href="#">Zona Oriental</a></li>
+                        <li><a href="#">Zona Central</a></li>
+                        <li><a href="#">Zona Occidental</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" >Colores fondos</a>
+                  <ul>
+                      <li><a href="#">Zona Oriental</a></li>
+                      <li><a href="#">Zona Central</a></li>
+                      <li><a href="#">Zona Occidental</a></li>
+                  </ul>
+              </li>
+              <li><a href="#" >Texto</a>
+                <ul>
+                    <li><a href="#">Zona Oriental</a></li>
+                    <li><a href="#">Zona Central</a></li>
+                    <li><a href="#">Zona Occidental</a></li>
+                </ul>
+            </li>
+                <li><a href="#">Contactenos</a></li>
+            </ul>
+            <span class="icon-menu" id="btn_menu" >
+            </span>
+        </nav>
+        <h1>Ciclo4</h1>
 
-<h1>Catalogo</h1>
-
-<button  id="miBoton4">Ciclo 4</button>
-<br><br><br>
-<script src="js/ciclo4.js"></script>
-<table id="ciclo4"></table>
-</body>
+        <button  id="miBoton4">Ciclo 4</button>
+        <br><br><br>
+        <script src="js/ciclo4.js"></script>
+        <table id="ciclo4"></table>
+    </body>
+    <footer class="footer">
+Hola
+      </footer>
 </html>

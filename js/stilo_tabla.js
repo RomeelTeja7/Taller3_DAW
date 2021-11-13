@@ -1,21 +1,21 @@
 //colores de la tabla
 $(document).ready(function() {
     $('#fondo1').click(function() {
-      $('table').css({
+      $('table, p').css({
          "backgroundColor": "yellow"
       });
     });
   });
   $(document).ready(function() {
     $('#fondo2').click(function() {
-      $('table').css({
+      $('table, p').css({
          "backgroundColor": "pink"
       });
     });
   });
   $(document).ready(function() {
     $('#fondo3').click(function() {
-      $('table').css({
+      $('table, p').css({
          "backgroundColor": "gray"
       });
     });
@@ -25,21 +25,21 @@ $(document).ready(function() {
   //colores de la tabla
 $(document).ready(function() {
   $('#texto1').click(function() {
-    $('table').css({
+    $('table, h2, p').css({
        "font-family": "cursive"
     });
   });
 });
 $(document).ready(function() {
   $('#texto2').click(function() {
-    $('table').css({
+    $('table, h2, p').css({
       "font-family": "fantasy"
     });
   });
 });
 $(document).ready(function() {
   $('#texto3').click(function() {
-    $('table').css({
+    $('table, h2, p').css({
       "font-family": "monospace"
     });
   });
@@ -67,6 +67,7 @@ $(document).ready(function() {
     });
   });
 });
+//color del cuerpo
 $(document).ready(function() {
   $('#back1').click(function() {
     $('body').css({
@@ -88,3 +89,4 @@ $(document).ready(function() {
     });
   });
 });
+
